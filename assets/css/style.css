@@ -1,0 +1,48 @@
+.First-Slider .carousel-indicators li {
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.First-Slider img {
+    height: 32rem;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(80%);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.footer {
+    background-color: rgba(0, 113, 128, 0.884);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.footer a {
+    border: 80px;
+    border-radius: 150px;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
